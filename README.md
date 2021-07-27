@@ -1,7 +1,7 @@
 # Overview
 This repo contains labview scripts created at UCSF-Starlab to use with the my-DAQ (NI instruments). The goal was to have a means of intrumentation measurement indenpendet of the RC+S system for benchtop signal and algorithm characterization.
 
-The myDAQ card is configured as analog single-ended channel. The measuring probe is then connected on a fixed resistor (1K) where the stimulation current output of the RC+S flows through from cathode (Contact 2) to anode (INS implant case). For more information on the benchtop set up, see this [benchtop README](https://github.com/jansoromeo/rcsbench)
+The myDAQ card is configured as analog single-ended channel. The measuring probe is then connected on a fixed resistor (1K) where the stimulation current output of the RC+S flows through from cathode (Contact 2) to anode (INS implant case). Overview [benchtop setup](https://github.com/jansoromeo/rcsbench).
 
 The repo is contains 2 functions:
 * `Analog_input_ch1_Continuous.vi`
